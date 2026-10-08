@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <img src=".github/assets/spider-glitch.svg" width="64" alt="ASCII-паук">
+      <img src=".spider-glitch.svg" width="64" alt="ASCII-паук">
     </td>
     <td>
       <a href="https://git.io/typing-svg">
