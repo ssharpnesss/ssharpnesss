@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="-6 -6 44 44" fill="none" stroke="#83b5ff" stroke-width=".75" role="img" aria-label="ASCII spider with glitch animation"><title>ASCII spider</title>
+<style>.developer-spider { animation: spider-glitch 5.5s steps(1, end) infinite; }
+.developer-spider-row { animation: spider-slice 5.5s steps(1, end) infinite; --slice-shift: 3px; }
+.developer-spider > g:nth-child(even) .developer-spider-row { --slice-shift: -3px; }
+@keyframes spider-glitch {
+  0%, 92%, 98%, 100% { transform: none; filter: none; }
+  93% { transform: translate(-1.5px, .5px) skewX(-8deg); filter: drop-shadow(2px 0 #ff3c9e) drop-shadow(-2px 0 #46edff); }
+  94% { transform: translate(1.5px, -.5px) skewX(5deg); filter: drop-shadow(-2px .5px #ff3c9e) drop-shadow(1px -.5px #46edff); }
+  95% { transform: none; filter: none; }
+  96% { transform: translate(-1px, 0) skewX(6deg); filter: drop-shadow(1.5px 0 #46edff) drop-shadow(-1px 0 #ffe66d); }
+  97% { transform: translate(.5px, 0); filter: none; }
+}
+@keyframes spider-slice {
+  0%, 92%, 95%, 98%, 100% { transform: none; }
+  93%, 96% { transform: translateX(var(--slice-shift)); }
+  94%, 97% { transform: translateX(calc(var(--slice-shift) * -.5)); }
+}
+@media (prefers-reduced-motion: reduce) { .developer-spider, .developer-spider-row { animation: none; } }
+</style><g class="developer-spider">
+<g transform="translate(0 0)"><g class="developer-spider-row">
+<path d="M2 1v5" transform="translate(4 0)"/>
+<path d="M2 1v5" transform="translate(8 0)"/>
+<path d="M2 1v5" transform="translate(20 0)"/>
+<path d="M2 1v5" transform="translate(24 0)"/>
+</g></g>
+<g transform="translate(0 8)"><g class="developer-spider-row">
+<path d="M1 1 3 6" transform="translate(4 0)"/>
+<path d="M1 1 3 6" transform="translate(8 0)"/>
+<path d="M3 1Q0 3.5 3 6" transform="translate(12 0)"/>
+<path d="M1 1Q4 3.5 1 6" transform="translate(16 0)"/>
+<path d="M3 1 1 6" transform="translate(20 0)"/>
+<path d="M3 1 1 6" transform="translate(24 0)"/>
+</g></g>
+<g transform="translate(0 16)"><g class="developer-spider-row">
+<path d="M3 1 1 6" transform="translate(0 0)"/>
+<path d="M3 1 1 6" transform="translate(4 0)"/>
+<path d="M3 1Q0 3.5 3 6" transform="translate(8 0)"/>
+<path d="M0 6h4" transform="translate(12 0)"/>
+<path d="M0 6h4" transform="translate(16 0)"/>
+<path d="M1 1Q4 3.5 1 6" transform="translate(20 0)"/>
+<path d="M1 1 3 6" transform="translate(24 0)"/>
+<path d="M1 1 3 6" transform="translate(28 0)"/>
+</g></g>
+<g transform="translate(0 24)"><g class="developer-spider-row">
+<path d="M2 1v5" transform="translate(0 0)"/>
+<path d="M2 1v5" transform="translate(4 0)"/>
+<path d="M2 1v5" transform="translate(24 0)"/>
+<path d="M2 1v5" transform="translate(28 0)"/>
+</g></g>
+</g></svg>
