@@ -13,3 +13,7 @@
     </td>
   </tr>
 </table>
+
+<a href="https://github.com/anivibe-party">
+  <img src="https://img.shields.io/badge/AniVibe-anivibe--party-000000?style=for-the-badge&logo=github&logoColor=white" alt="AniVibe">
+</a>
